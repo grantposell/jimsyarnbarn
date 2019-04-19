@@ -31,3 +31,7 @@
     transform: rotate(360deg);
   }
 }
+@font-face{
+  src: url(/public/Cutepunk_Regular.otf);
+  font-family: cutepunk;
+}
