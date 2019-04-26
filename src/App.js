@@ -13,16 +13,15 @@ class App extends Component {
           <Header transparent title="Jim's Yarn Barn" style={{ color: 'white' }}>
             <Navigation>
               <a href="/">Home</a>
-              <a href="./store">Store</a>
-              <a href="./cart">Cart</a>
+              <a href="/store">Store</a>
+              <a href="/cart">Cart</a>
             </Navigation>
           </Header>
           <Drawer title="Jim's Yarn Barn">
             <Navigation>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
+              <a href="/">Home</a>
+              <a href="/store">Store</a>
+              <a href="/cart">Cart</a>
             </Navigation>
           </Drawer>
           <Content />
